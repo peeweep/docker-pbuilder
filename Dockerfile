@@ -1,3 +1,3 @@
 FROM debian:buster-slim
 RUN apt update
-RUN apt install -y sudo pbuilder devscripts git
+RUN apt install -y sudo pbuilder devscripts git ca-certificates
